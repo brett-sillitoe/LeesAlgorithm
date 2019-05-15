@@ -36,7 +36,7 @@ public class lees
   
   public static void main(String[] paramArrayOfString)
   {
-    JFrame localJFrame = new JFrame("get rekt");
+    JFrame localJFrame = new JFrame("Lees_Algorithm");
     localJFrame.setDefaultCloseOperation(3);
     localJFrame.setSize(1366, 768);
     localJFrame.setLocation(30, 20);
@@ -88,7 +88,6 @@ public class lees
   }
   
   public static boolean isValid(boolean[][] v, int a, int x, int y){
-	  //THIS COULD BE SUPER WRONG LUL YOLO
 	  return (y+col[a]>=0)&&(y+col[a]<20)&&(x+row[a]>=0)&&(x+row[a]<20)&&(board[x+row[a]][y+col[a]]==1)&&(!v[x+row[a]][y+col[a]]);
   }
   
